@@ -30,31 +30,21 @@ This is a simple, fully functional Task Manager API built with FastAPI, showcasi
 ---
 ## Setup Instructions
 
-1. Clone the repository      
+1. Clone the repository https://github.com/kanwar911/BTP-project.git
    git clone 
    cd fastapi-task-manager
-      
 
 2.   Create a virtual environment  
-      
    python -m venv venv
    source venv/bin/activate    # On Windows: venv\Scripts\activate
       
-
 3.   Install dependencies  
-      
    pip install -r requirements.txt
-      
 
 4.   Run the API server  
-      
    uvicorn main:app --reload
-      
-
 ---
-
-## 📬 API Endpoints
-
+## API Endpoints
 | Method | Endpoint           | Description             |
 |--------|--------------------|-------------------------|
 | POST   |  /tasks            | Create a new task       |
@@ -65,14 +55,11 @@ This is a simple, fully functional Task Manager API built with FastAPI, showcasi
 
 ---
 
-## 📚 Interactive Docs
-
+## Interactive Docs
 - Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 - ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
 ---
-
-## 📦 Example Task JSON
+## Example Task JSON
 
    json
 {
@@ -82,23 +69,17 @@ This is a simple, fully functional Task Manager API built with FastAPI, showcasi
   "completed": false
 }
    
-
 ---
 
-## 🧪 Testing
+## Testing
 
 Use Swagger UI to test endpoints directly in your browser or tools like   Postman   or   cURL  .
-
 ---
-
-## 📝 License
+## License
 
 This project is open for educational use. You may extend or build upon it for learning or demonstration purposes.
-
 ---
-
-## 🤛🏼 Author
-
-  Your Name    
-Student @ [Your Institution]  
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+## Author
+Kanwar Singh Sandhu    
+Student @ Senecapolytechnic
+GitHub: https://github.com/kanwar911
